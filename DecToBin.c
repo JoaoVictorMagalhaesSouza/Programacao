@@ -10,8 +10,7 @@ int Conversor(int aux3){
    int aux;
    int vai_um=0;
    int adder[16] ={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1};
-   int bin_negativo[16];
-   
+   int bin_negativo[16];   
 
 
     for (aux = 15; aux >= 0; aux--)                 /// Sempre coverte o numero para binario. Depois que trata positivo ou neg.
